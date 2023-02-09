@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+.header{
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo{
+    font-weight: 32px;
+    color:#3C3C3C;
+    width: 100%;
+    font-weight: 700;
+    font-family: 'Fira Sans', sans-serif;
+}
+.logo span {
+    color:#5A92FF !important;
+}
+
+input.search-input {
+    background: #DEDEDE;
+    width: 100%;
+    font-size: 18px;
+    padding: 9px;
+}
+.sell-ticket-btn {
+    height: 48px;
+    background: #5A92FF !important;
+    color: #fff !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    border-radius: 0 !important;
+    display: block !important;
+    width: 100%;
+    font-family: 'Fira Sans', sans-serif !important;
+}
+.list-table{
+    margin-top:35px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.list-table th {
+    background: #5A92FF !important;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom:35px;
+    text-align: center;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+th:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.list-table td {
+    padding:14px 0 !important;
+    border-bottom: 0 !important;
+    text-align: center;
+}
+.list-table td span {
+    background: rgba(8, 126, 139, 0.14) !important;
+    color: #6F6F6F;
+    font-size: 24px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    height: 59px;
+}
+
+td:first-child span {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+td:last-child span{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button.view-button {
+    background: transparent;
+    border: none;
+    color: gray;
+    font-size: 18px;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    font-family: 'Fira Sans', sans-serif ;
+    padding: 0;
+}
+
+@media(max-width:1080px){
+    .list-table td span {
+        font-size: 16px;
+    }
+    .list-table th {
+        font-size: 16px;
+    }
+    .sell-ticket-btn {
+        font-size: 16px !important;
+    }
+    
+}
+
+@media(max-width: 770px){
+    .logo{
+        text-align: center;
+    }
+    .sell-ticket-btn {
+        margin-top: 30px;
+    }
+}

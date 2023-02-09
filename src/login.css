@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+.login-container {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.logo{
+font-size: 48px;
+    color:#3C3C3C;
+    font-weight: 700;
+    font-family: 'Fira Sans', sans-serif;
+}
+.logo span {
+    color:#5A92FF !important;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.input-container label {
+    font-size: 18px;
+    font-weight: 400;
+}
+.input-container input{
+    width: 290px;
+    height: 49px;
+    border:1px solid #CCCCCC;
+    color: #000;
+    font-weight: 700;
+    font-size:24px;
+    padding:10px;
+}
+button.get-otp-btn {
+    width: 310px;
+    height: 55px;
+    background: #5A92FF;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}

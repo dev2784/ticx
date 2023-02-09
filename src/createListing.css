@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.create-container {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-bottom: 30px;
+    margin-top:20px;
+    font-family: 'Roboto', sans-serif;
+}
+.form-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 37px;
+}
+.form-section input {
+    border-width: 0 0 1px 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.form-section label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-section {
+    width: 66px;
+    height: 66px;
+    border: 1px dashed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #999999;
+    position: absolute;
+    margin-top: 22px;
+}
+
+.form-section input[type="file"] {
+    z-index: 1000;
+    opacity: 0;
+    margin-bottom: 40px
+}
+
+button.submit-btn {
+    height: 50px;
+    width: 100%;
+    background: #5A92FF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    border-radius: 0 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.cancel-btn {
+    height: 50px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #5A92FF !important;
+    background: #fff;
+    border: 1px solid #5A92FF;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    border-radius: 0 !important;
+}
